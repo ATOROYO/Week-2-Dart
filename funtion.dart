@@ -3,11 +3,6 @@ void printName() {
   print("Brenda");
 }
 
-// Call the function
-void main() {
-  printName();
-}
-
 // Example 2
 void printName2() {
   print("My name is Daisy");
@@ -15,5 +10,6 @@ void printName2() {
 
 void main() {
   // Callimng the function
+  printName();
   printName2();
 }
