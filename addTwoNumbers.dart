@@ -16,3 +16,16 @@ void findSum(int num1, double num2) {
 void main() {
   findSum(10, 5.5);
 }
+
+// Function With No Parameter And Return Type
+String InstructorName() {
+  return "Allan";
+}
+
+void main() {
+  // Calling the function and storing the results
+  String instructor = InstructorName();
+
+  // Print the instructor's name
+  print("The instructor's name is: $instructor");
+}
