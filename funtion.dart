@@ -14,9 +14,15 @@ void findSum(int num1, int num2) {
   print("The sum of $num1 and $num2 is: $sum");
 }
 
+// Function With No Parameter And No Return Type
+void noParams() {
+  print("Sharon is my girlfriend");
+}
+
 void main() {
   // Callimng the function
   printName();
   printName2();
   findSum(10, 20);
+  noParams();
 }
