@@ -8,7 +8,7 @@
 //   printName();
 // }
 
-// Simple interest without using the arrow function
+// / Simple interest without using the arrow function / ///
 void main() {
   // Principal amount, rate of interest, and time period
   double principal = 1000.0;
@@ -25,4 +25,19 @@ void main() {
 
   // Printing the result
   print("The simple interest is: \$${interest}");
+
+  // Example 2: Calculation of simple interest WITH Arrow Function
+  double principalTwo = 1000.0;
+  double rateTwo = 5.0;
+  double timetwo = 3.0;
+
+  // Arrow function to calculate simple interest
+  double calcSimpleInterest =
+      (double a, double b, double c) => (a * b * c) / 100;
+
+  // Calling the function and storing results
+  double interest2 = calcSimpleInterest(principalTwo, rateTwo, timetwo);
+
+  // Printing the results
+  print("The simple interest is: \$${interest2}");
 }
