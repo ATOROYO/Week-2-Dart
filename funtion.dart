@@ -19,10 +19,16 @@ void noParams() {
   print("Sharon is my girlfriend");
 }
 
+// Function With Parameter And No Return Type
+void printNameSentence(String name) {
+  print("My name is $name");
+}
+
 void main() {
   // Callimng the function
   printName();
   printName2();
   findSum(10, 20);
   noParams();
+  printNameSentence("Sarah Shantel");
 }
