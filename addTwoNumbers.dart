@@ -11,3 +11,8 @@ void findSum(int num1, double num2) {
   double sum = num1 + num2;
   print(sum);
 }
+
+// Calling the function
+void main() {
+  findSum(10, 5.5);
+}
