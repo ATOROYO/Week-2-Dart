@@ -12,17 +12,14 @@ void findSum(int num1, double num2) {
   print(sum);
 }
 
-// Calling the function
-void main() {
-  findSum(10, 5.5);
-}
-
 // Function With No Parameter And Return Type
 String InstructorName() {
   return "Allan";
 }
 
 void main() {
+  findSum(10, 5.5);
+
   // Calling the function and storing the results
   String instructor = InstructorName();
 
