@@ -5,3 +5,9 @@
 //   double sum = num1 + num2;
 //   print(sum);
 // }
+
+// Using function to find sum
+void findSum(int num1, double num2) {
+  double sum = num1 + num2;
+  print(sum);
+}
