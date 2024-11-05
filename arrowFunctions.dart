@@ -26,7 +26,7 @@ void main() {
   // Printing the result
   print("The simple interest is: \$${interest}");
 
-  // Example 2: Calculation of simple interest WITH Arrow Function
+  // Example 2: Calculation of simple interest WITH Arrow Function //
   double principalTwo = 1000.0;
   double rateTwo = 5.0;
   double timetwo = 3.0;
