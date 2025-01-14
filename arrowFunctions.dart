@@ -32,7 +32,7 @@ void main() {
   double timetwo = 3.0;
 
   // Arrow function to calculate simple interest
-  int calcSimpleInterest = (double a, double b, double c) => (a * b * c) / 100;
+  // int calcSimpleInterest = (double a, double b, double c) => (a * b * c) / 100;
 
   // Calling the function and storing results
   double interest2 = calcSimpleInterest(principalTwo, rateTwo, timetwo);
