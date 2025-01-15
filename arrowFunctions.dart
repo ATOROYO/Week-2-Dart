@@ -35,7 +35,7 @@ void main() {
   // int calcSimpleInterest = (double a, double b, double c) => (a * b * c) / 100;
 
   // Calling the function and storing results
-  // double interest2 = calcSimpleInterest(principalTwo, rateTwo, timetwo);
+  double interest2 = calcSimpleInterest(principalTwo, rateTwo, timetwo);/
 
   // Printing the results
   print("The simple interest is: \$${interest2}");
